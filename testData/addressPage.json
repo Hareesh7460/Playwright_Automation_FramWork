@@ -1,0 +1,27 @@
+[
+    {
+    "fname": "Hareesh",
+    "lname": "Bale",
+    "address11": "Techouts Solutions",
+    "address22": "Gachibowlli",
+    "city1": "Hyderabad",
+    "uPhoneNumber": "9110784175",
+    "Ustate":"KY",
+    "Ucountry": "UK",
+    "Uzip":"4545"
+
+},
+{
+    "fname": "Ram",
+    "lname": "Gopal",
+    "address11": "Techouts Solutions",
+    "address22": "Gachibowlli",
+    "city1": "Hyderabad",
+    "uPhoneNumber": "9110784175",
+    "Ustate":"KY",
+    "Ucountry": "UK",
+    "Uzip":"4545"
+
+}
+]
+
