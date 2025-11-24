@@ -89,6 +89,7 @@ test("handling_multiple_tab",async({browser})=>{
     ])
 })
 
+//Handling multiple tabs
 
 test("handleMultipleTabs",async({context})=>{
     const page= await context.newPage();
