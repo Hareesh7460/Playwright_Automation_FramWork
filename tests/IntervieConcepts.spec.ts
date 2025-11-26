@@ -17,6 +17,7 @@ test("handling Alerts",async({page})=>{
 
      await page.locator("//button[contains(text(),'Click for JS Alert')]").click();
     await expect(page.locator("//p[@id='result']")).toHaveText("You successfully clicked an alert")
+    await expect(page.locator("//p[@id='result']"))
 })
 
 /*
@@ -30,7 +31,7 @@ page.on("dialog",async(dialog)=>{
 })
     */
 
-// Handling the alerts
+
 test("handling Alerts by geving promt",async({page})=>{
     await page.goto("https://the-internet.herokuapp.com/javascript_alerts")
     
@@ -70,7 +71,6 @@ test("Windows handling",async({context})=>{
 
 })
 
-//Handling multiple tabs
 test("handling_multiple_tab",async({browser})=>{
     const context= await browser.newContext()
     const tab_A= await context.newPage()
@@ -108,4 +108,5 @@ test("Handling Frams",async({page})=>{
     const fram= await page.frameLocator("#theheaderhtml")
     await fram.locator(".page-navigation").highlight();
 })
+
 
