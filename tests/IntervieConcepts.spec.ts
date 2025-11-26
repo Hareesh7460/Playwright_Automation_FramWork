@@ -17,6 +17,7 @@ test("handling Alerts",async({page})=>{
 
      await page.locator("//button[contains(text(),'Click for JS Alert')]").click();
     await expect(page.locator("//p[@id='result']")).toHaveText("You successfully clicked an alert")
+    await expect(page.locator("//p[@id='result']"))
 })
 
 /*

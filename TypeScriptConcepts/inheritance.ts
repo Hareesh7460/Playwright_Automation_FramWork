@@ -5,11 +5,11 @@ class Company{
         
     }
 }
-class Location extends Company{
+// class Location extends Company{
 
-        organizations_details(cName:String):String{
-        this.companyName= cName;
-        return this.companyName;
-    }
+//         organizations_details(cName:String):String{
+//         this.companyName= cName;
+//         return this.companyName;
+//     }
 
-}
+//}
